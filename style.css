@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1498116069452-debf99cb30f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+}
+
+.div-base{
+    position: relative;
+    height: 100vh;
+}
+
+.circle-1{
+    transform: rotate(-135deg);
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 300px;
+    width:300px;
+    left:550px;
+    top:280px;
+    animation-name: rotation-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle-2{
+    transform: rotate(110deg);
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 400px;
+    width:400px;
+    left:500px;
+    top:230px;
+    animation-name: rotation-2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle-3{
+    transform: rotate(160deg);
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 500px;
+    width:500px;
+    left:450px;
+    top:180px;
+    animation-name: rotation-3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle-4{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 600px;
+    width:600px;
+    left:400px;
+    top:130px;
+    animation-name: rotation-4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle-5{
+    transform: rotate(-5deg);
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 700px;
+    width:700px;
+    left:350px;
+    top:80px;
+    animation-name: rotation-5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle-6{
+    transform: rotate(60deg);
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 800px;
+    width:800px;
+    left:300px;
+    top:30px;
+    animation-name: rotation-6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.sun{
+    position: absolute;
+    height:150px;
+    width:150px;
+    background-color:yellow;
+    border-radius: 50%;
+    left:625px;
+    top:355px;
+    z-index: 3;
+}
+
+.round-1{
+    position: absolute;
+    z-index: 2;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;background-color: yellow;
+    left:610px;
+    top:340px;
+    opacity: 0.5;
+    animation-name: expansion-1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.round-2{
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;background-color: orange;
+    left:595px;
+    top:325px;
+    opacity: 0.5;
+    animation-name: expansion-2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.img-1{
+    position: absolute;
+    height:50px;
+    width:50px;
+    left:125px;
+    top:275px;
+}
+
+.img-2{
+    position: absolute;
+    height:60px;
+    width:60px;
+    left:170px;
+    top:370px;
+}
+
+.img-3{
+    position: absolute;
+    height:80px;
+    width:80px;
+    left:210px;
+    top:460px;
+    border-radius: 50%;
+}
+
+.img-4{
+    position: absolute;
+    height:40px;
+    width:40px;
+    left:450px;
+    top:529px;
+    border-radius: 50%;
+}
+
+.img-5{
+    position: absolute;
+    height:60px;
+    width:60px;
+    left:370px;
+    top:-13px;
+    border-radius: 50%;
+}
+
+.img-6{
+    position: absolute;
+    height:120px;
+    width:120px;
+    left:290px;
+    top:640px;
+}
+
+.img-7{
+    position: absolute;
+    height:120px;
+    width:120px;
+    left:340px;
+    top:740px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.oval{
+    position: absolute;
+    border-radius: 50%;
+    height: 80px;
+    width: 150px;
+    border: 1px solid white;
+    border-top-color: transparent;
+    border-bottom-color: transparent ;
+    left:275px;
+    top:660px;
+    animation-name: rotation-oval;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation-oval {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation-1 {
+    100%{
+        transform: rotate(225deg);
+    }
+}
+
+@keyframes rotation-2 {
+    100%{
+        transform: rotate(470deg);
+    }
+}
+
+@keyframes rotation-3 {
+    100%{
+        transform: rotate(520deg);
+    }
+}
+
+@keyframes rotation-4 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation-5 {
+    100%{
+        transform: rotate(355deg);
+    }
+}
+
+@keyframes rotation-6 {
+    100%{
+        transform: rotate(420deg);
+    }
+}
+
+@keyframes expansion-1 {
+    50%{
+        height: 200px;
+        width: 200px;
+        left:600px;
+        top:330px;
+    }
+}
+
+@keyframes expansion-2 {
+    50%{
+        height: 230px;
+        width: 230px;
+        left:585px;
+        top:315px;
+    }
+}
